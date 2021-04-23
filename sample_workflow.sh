@@ -9,7 +9,7 @@
 qrsh -q long -pe smp 24
 
 module load conda 
-conda active flye
+conda activate flye
 # go to your directory where you want to run the analysis 
 
 # make some variables to run the code
